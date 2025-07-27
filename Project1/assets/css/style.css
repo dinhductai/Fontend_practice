@@ -154,6 +154,7 @@
     display: inline-block;
     border-radius:5px ;
     margin-bottom: 10px;
+    cursor: pointer;
     
 }
 
@@ -166,6 +167,20 @@
 .button-two:hover{
     background-color: #fff;
     border: 2px solid #fff;
+    /* transition: scale(1.1); */
+    
+}
+
+.button-dark{
+    background: var(--color-text);
+    color: #fff;
+    border-color: var(--color-text);
+    /* transition: transform 0.2s ease; */
+}
+.button-dark:hover{
+    background-color: var(--color-yellow);
+    color: var(--color-text);
+    border: 2px solid var(--color-yellow);
     /* transition: scale(1.1); */
     
 }
@@ -309,3 +324,112 @@
     }
 }
 /* end section two  */
+
+/* section three  */
+.section-three{
+    background-color: var(--color-backgrd);
+    padding: 100px 0;
+
+}
+
+.section-three .container .inner-wrap{
+    display: flex;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.section-three .container .inner-wrap .inner-content{
+    flex: 1;
+}
+
+.section-three .container .inner-wrap .inner-content .inner-sub-title{
+    color: #757171;
+    margin-top: 0;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.section-three .container .inner-wrap .inner-content .inner-title{
+    color: var(--color-text);
+    font-size: 60px;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+.section-three .inner-image{
+    width: 30%;
+    margin-left: 30px;
+}
+
+.section-three .inner-image img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px 10px 0 0 ;
+    margin-top: -120px;
+    margin-bottom: -45px;
+}
+
+/* end section three  */
+
+
+/* form contact  */
+.contact-form{
+    padding: 80px 0;
+}
+
+.box-head{
+    margin-bottom: 30px;
+}
+
+.box-head .inner-sub-title{
+    color: #696969;
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.box-head .inner-title{
+    font-size: 60px;
+    font-weight: 600;
+    color: var(--color-text);
+    margin-top: 0;
+    margin-bottom: 0px;
+}
+
+.contact-form .inner-wrap{
+    background-color: var(--color-backgrd-green);
+    padding: 60px 50px;
+    border-radius: 10px;
+}
+
+
+.contact-form .inner-wrap .inner-form-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+ 
+.contact-form .inner-form-wrap input{
+    width: 32%;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    height: 50px;
+    border: 0;
+    text-align: center;
+}
+
+.contact-form .inner-form-wrap textarea{
+    width: 100%;
+    height: 200px;
+    border-radius: 8px;
+    border: 0;
+
+}
+
+.contact-form .inner-button{
+    text-align: right;
+}
+/* end form contact  */

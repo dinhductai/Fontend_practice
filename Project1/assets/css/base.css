@@ -4,8 +4,9 @@
 :root{
     --color-pink: #FF8484;
     --color-yellow: #F7D9C4;
-    --color-backgrd: #f8f9fa;
+    --color-backgrd: #ececec;
     --color-backgrd-light: #EFEFEF;
+    --color-backgrd-green: #dce8eb;
     --color-text: #232323;
     --font: "DM Sans", sans-serif;
 }
