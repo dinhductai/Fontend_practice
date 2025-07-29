@@ -2,11 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
 
 :root{
-    --color-pink: #FF8484;
+    --color-pink: #ff589e;
     --color-yellow: #F7D9C4;
     --color-backgrd: #ececec;
-    --color-backgrd-light: #EFEFEF;
-    --color-backgrd-green: #dce8eb;
+    --color-purple: #8261ee;
+    --color-text-light: #757575;
     --color-text: #232323;
     --font: "DM Sans", sans-serif;
 }
@@ -31,6 +31,34 @@ a{
     max-width: 1140px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.button{
+    display: inline-block;
+    font-size: 13px;
+    border-radius: 20px;
+    padding: 12px 20px;
+    transition: all 0.3s ease 0s;
+
+}
+
+.button-pink{
+    color: #fff;
+    background-color: var(--color-pink);
+}
+
+.button-purple{
+    color: #fff;
+    background-color: var(--color-purple);
+}
+
+.button-pink:hover{
+    background-color: var(--color-purple);
+}
+
+.button-purple:hover{
+    background-color: var(--color-pink);
+
 }
 
 @media (max-width: 1200px) {
